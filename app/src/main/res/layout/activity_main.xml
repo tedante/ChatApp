@@ -13,7 +13,7 @@
         <!--&gt;-->
 
         <!--<android.support.v7.widget.Toolbar-->
-            <!--android:id="@+id/widget_toolbar"-->
+          git   <!--android:id="@+id/widget_toolbar"-->
             <!--android:layout_width="match_parent"-->
             <!--android:layout_height="?attr/actionBarSize"-->
             <!--android:titleTextColor="@color/colorAccent">-->
@@ -52,10 +52,10 @@
         android:src="@mipmap/ic_launcher"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginEnd="18dp"
+        android:background="#3498db"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="20dp"
-        android:background="#3498db" />
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
