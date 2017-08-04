@@ -45,17 +45,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <android.support.design.widget.FloatingActionButton
+        android:id="@+id/bt_search_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
         android:layout_gravity="bottom"
-        android:clickable="true"
-        android:src="@mipmap/ic_launcher"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
         android:layout_marginBottom="13dp"
         android:layout_marginEnd="18dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
         android:background="#3498db"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
+        android:clickable="true"
+        android:src="@mipmap/ic_launcher" />
 
 </RelativeLayout>
